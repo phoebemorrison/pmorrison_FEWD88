@@ -1,0 +1,36 @@
+div{
+background-color: white;
+width: 450px;
+height:600px;
+text-align: center;
+margin: 0 auto;
+text-decoration: none;
+color: black;
+}
+body{
+	background-image: url("boston.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1{
+	padding-top: 20px;
+	font-family: Playfair, serif;
+}
+p{
+	font-family: Lato, sans-serif;
+}
+footer{
+	font-family: Lato, sans-serif;
+	text-align: center;
+	padding-top: 240px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	padding-top: 10px;
+	font-family: lato;
+}
+marquee{
+	background-color: white;
+	color: red;
+}
