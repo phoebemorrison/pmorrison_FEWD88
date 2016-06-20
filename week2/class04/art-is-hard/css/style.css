@@ -4,27 +4,30 @@ body {
 	color: black; 
 	line-height: 1.25;
 	background: url("images/hipster-line.gif") no-repeat;
+
 }
 
-#container {
-	margin: 0 auto;
-	width: 910px;
+.container {
+	margin: auto 0;
+	width: 800px;
+	height: auto;
 }
 
-#header {
+.header {
 	padding: 140px 0 60px 0;
 }
 
-main {
+#main {
 	padding: 20px;
 }
 
-main p {
+#main p {
 	margin-left: 20px;
 	color: #999999;
+	padding: 20px;
 }
 
-#footer {
+footer {
 	padding: 20px;
 	text-align: right;
 }
@@ -37,32 +40,26 @@ p {
 	margin: 15px 0;
 }
 
-#header h2 {
+.header h2 {
   font-size: 16px;
   font-family: Courier;
+  opacity: .2;
 }
 
-#header h1 {
-  font-size: 100px;
+.header h1 {
+  font-size: 80px;
   padding: 0;
   margin: 0;
-  padding-top: 10px;
   color: #333333;
   line-height: .7;
   font-family: Courier;
-  letter-spacing: -2px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: -40px;
 }
 
-h2 {
-  font-size: 32px;
-  margin: 4px 0;
-  font-weight: normal;
-  padding: 0;
-  color: #999999;
-  font-name: Courier;
-  line-height: 2.8em;
+h2 a{
+  opacity: .2;
 }
 
 a {
@@ -73,8 +70,11 @@ a {
 a:visited, a:hover, a:active {
 	color: #000000;
 }
+img{
+ width: 800px;
+}
 
-img#frame {
+.frame img{
 	padding: 100px;
 	background: #fcfcfc;
 	border: 1px solid #cccccc;
@@ -84,3 +84,4 @@ img#frame {
 .line {
 	margin: 25px 0;
 	border-bottom: 1px #cccccc solid;
+}
