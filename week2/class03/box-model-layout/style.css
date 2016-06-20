@@ -1,0 +1,25 @@
+p{
+	background: orange;
+	text-align: center;
+}
+.blue{
+	color: blue;
+}
+.green{
+	color: green;
+}
+.yellow{
+	color: yellow;
+}
+nav{
+	background: black;
+	width: 95%;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+div{
+	width: 95%;
+	margin-top: 5px;
+	margin: 0 auto;
+}
