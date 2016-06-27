@@ -1,0 +1,165 @@
+// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+.top{
+	width: auto;
+}
+
+.nav{
+	width: auto;
+	background-color: black;
+	height: 75px;
+}
+
+.stripe{
+	background-color: yellow;
+	width: auto;
+	height: 5px;
+}
+
+.phrase{
+	background-color: #C6C6C6;
+	width: 100%;
+	height: 75px;
+	display: inline-block;
+}
+#brain{
+	line-height: 30px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Merriweather", serif;
+}
+
+span{
+	text-decoration: line-through;
+}
+
+body{
+	background-image: url("../img/coworking.jpg");
+	background-color: #C6C6C6;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: left middle;
+
+}
+
+.meet{
+	background-color: rgba(255,255,255,0.8);
+	width: 400px;
+	height: 270px;
+	margin-top: 40px;
+	margin-right: 50px;
+	float: right;
+
+}
+
+#titlemeet {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+
+}
+
+#insidemeet{
+	width: 350px;
+	height: 215px;
+	margin: 0 auto;
+}
+
+p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+button{
+	width:100%;
+	height:55px;
+	background-color: yellow;
+	border-radius: 10px;
+	margin-top: 40px;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	box-shadow: 10px 10px 50px grey;
+	border: none;
+}
+
+.titlesmall{
+	font-family: "Merriweather", serif;
+	font-size: 20px;
+}
+.cta{
+	width: 100%;
+	height: 250px;
+	background-color: #C6C6C6;
+	margin-top: 350px;
+}
+
+.left{
+	float: left;
+	margin-left: 50px;
+	width: 25%;
+
+}
+.right{
+	float: left;
+	width: 25%;
+}
+
+.middle{
+	float: left;
+	width: 25%;
+}
+
+footer{
+	background-color: black;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	height: 70px;
+	width: 100%;
+	margin-top: 100px;
+}
+#footertext{
+	color: white;
+	line-height: 70px;
+	margin-left: 80px;
+}
+.greybutton{
+	width: 100%;
+	height: 80px;
+	background-color: #C6C6C6;
+}
+
+.left, .right, .middle{
+	display: block-inline;
+	margin-left: 50px;
+}
+
+h1{
+	color: yellow;
+	font-size: 30px;
+	font-family: "Merriweather", serif;
+}
+
+.navlinks{
+	float: right;
+	margin-top: 20px;
+	padding-right: 40px;
+}
+
+a{
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.logo{
+	padding-left: 20px;
+	float: left;
+	width: auto;
+}
