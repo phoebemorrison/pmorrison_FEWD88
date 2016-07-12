@@ -7,12 +7,15 @@
 // - C) output this string to #output
 
 var menu = document.getElementById('clickme');
-var hometown = document.getElementById('hometown');
-var partner = document.getElementById('partner');
-var favNum = document.getElementById('jobTitle');
-
+var hometown = document.getElementById('hometown').value;
+var partner = document.getElementById('partner').value;
+var jobTitle = document.getElementById('jobTitle').value;
+var output = document.getElementById('output').value;
+var favNum = document.getElementById('favNum');
+document.getElementById("mySelect").selectedIndex;
 menu.onclick=tellFortune;
 function tellFortune(){
+	output.innerHTML = "You will be a "+ jobTitle + " living in " + hometown + "married to " + partner + "with " + favNum + "kids.";
 
 
 }
