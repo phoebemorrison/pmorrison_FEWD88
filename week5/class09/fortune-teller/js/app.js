@@ -12,7 +12,6 @@ var partner = document.getElementById('partner').value;
 var jobTitle = document.getElementById('jobTitle').value;
 var output = document.getElementById('output').value;
 var favNum = document.getElementById('favNum');
-document.getElementById("mySelect").selectedIndex;
 menu.onclick=tellFortune;
 function tellFortune(){
 	output.innerHTML = "You will be a "+ jobTitle + " living in " + hometown + "married to " + partner + "with " + favNum + "kids.";
