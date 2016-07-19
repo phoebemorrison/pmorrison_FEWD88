@@ -1,13 +1,14 @@
-function convert(){
-	$('c').click('f'+10)
-
-}
-
-
-get
+var rawTemp;
+var rawUnit;
+var convertedTemp;
+var convertedUnit;
 
 $('#submit').click(function(){
-    var c = $('#c').text();
-    '#c' = parseInt('#c') * 1.8 + 32;
-    $('#c').text('#c');
+	rawTemp = parseint($('#temp').val());
+	rawUnit = $("input[type='radio']:checked").val();
+	if(rawUnit === 'F'){
+		convertedUnit = 'C';
+		convertedTemp = (rawTemp -32) / 1.8;
+		$('#output').html(convertedTemp + convertedUnit);
+	}
 });
